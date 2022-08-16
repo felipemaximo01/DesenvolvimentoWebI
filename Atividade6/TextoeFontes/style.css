@@ -1,0 +1,346 @@
+        
+          .a1{
+            color: red;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+            border-color: black;
+           }
+           .a2{
+            color: blue;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+            border-color: black;
+            }
+          .a3{
+            color: #d2048d;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+            border-color: black;
+           }
+          .a4{ 
+            text-align: left;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+           }
+          .a5{
+            text-align: right;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+           }
+           .a6{
+            text-align: center;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+           }
+           .a7{
+            text-align: justify;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+            }
+           .a8{
+            text-decoration: none;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+             }
+           .a9{ 
+            text-decoration: underline;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+             }
+            .a10{
+            text-decoration: overline;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+              }
+            .a11{ 
+            text-decoration: line-through;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+              }
+            .a12{
+            text-transform: none;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+               }
+            .a13{ 
+            text-transform: capitalize;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+               }
+            .a14{ 
+            text-transform: uppercase;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+               }
+            .a15{
+            text-transform: lowercase;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0; 
+                }
+            .a16{
+            text-indent: 0;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;   
+                 }
+            .a17{
+            text-indent: 20px;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                }
+            .a18{
+            letter-spacing: normal;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0; 
+                }
+            .a19{ 
+            letter-spacing: 10px;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0; 
+                 }
+            .a20{ 
+            letter-spacing: -2px;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;   
+                }
+            .a21{ 
+            word-spacing: 0;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;  
+                }
+            .a22{
+            word-spacing: 4px;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;  
+                }
+            .a23{
+            word-spacing: -4px;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                } 
+            .a24{
+            word-spacing: 0;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                }
+            .a25{
+            line-height: normal;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                 }
+             .a26{
+            line-height: 20px;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;  
+                    
+                 }
+            .a27{
+            font-family: Arial, Helvetica, sans-serif;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                 }
+            .a28{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;    
+                }
+            .a29{
+            font-family: 'Courier New', Courier, monospace;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                }
+            .a30{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                }
+            .a31{ 
+            font-size: 12px;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                }
+            .a32{
+            font-size: 16px;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                 }
+            .a33{
+            font-size: 20px;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                 }
+            .a34{ 
+            font-size: 24px;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                }
+            .a35{
+            font-size: 28px;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;   
+                 }
+            .a36{ 
+            font-style: normal;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                }
+            .a37{ 
+            font-style: italic;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                }
+            .a38{
+            font-style: oblique;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                 }
+            .a39{ 
+            font-variant:normal ;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+                }
+            .a40{
+            font-variant: small-caps;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+            }
+            .a41{
+            font-weight: normal;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+             }
+            .a42{
+            font-weight: bold;
+            border-style: dashed;
+            border-bottom-width: 3px;
+            border-top-width: 0;
+            border-right-width: 0;
+            border-left-width: 0;
+             }
+            .a0{
+            border-width: medium;
+            border-style: solid;
+            border-color: black;
+             }

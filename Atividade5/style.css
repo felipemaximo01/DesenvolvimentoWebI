@@ -1,0 +1,70 @@
+body{
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: rgb(253, 253, 171);
+}
+figure{
+    text-align: center;
+}
+img{
+    width: 1280px;
+}
+@font-face {
+    font-family: lemonmilk;
+    src: local(LEMONMILK), url(LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family: lemonmilklight;
+    src: local(LEMONMILKlight), url(LEMONMILK-Light.otf);
+}
+
+h1{
+    font-family: "lemonmilk";
+    text-align: center;
+    font-size: 44px;
+}
+h2{
+    font-family: "lemonmilk";
+    font-size: 30px;
+}
+p{
+    font-family: "lemonmilklight";
+    font-size: 20px;
+    text-align: justify;
+}
+a{
+    font-family: "lemonmilklight";
+    font-size: 20px;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 14%;
+    margin-right: 0.5%;
+    text-align: center;
+    line-height: 3;
+    color: black; 
+}
+ul {
+    padding: 0;
+    width: 100%; 
+    text-align: center;
+}
+  
+li {
+    display: inline; }
+  
+li:last-child a {
+    margin-right: 0;
+}
+a:link, a:visited, a:focus {
+    background: yellow;
+}
+a:hover {
+    background: orange;
+}
+a:active {
+    background: red;
+    color: white;
+}
+    
+    

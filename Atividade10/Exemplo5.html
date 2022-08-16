@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Felipe Maximo Colen">
+    <title>Exemplo4Condição</title>
+
+</head>
+<body>
+    <form action="" name="formcalend" method="post">
+        digite o m&ecirc;s (01 a 12): <input type="text" name="fmes" size="4" maxlength="2"><p></p>
+        <input type="button" name="btnprocessar" value="Processar" onclick="verificames()">
+        <input type="reset" name="btncancelar" value="Cancelar"><p></p>
+        O m&ecirc;s corresponde &eacute; <input type="text" name="fnomemes" size="18" maxlength="15">
+    </form>
+    <script language="Javascript">
+        var jsmes;
+        function verificames(){
+            jsmes = parseInt(document.formcalend.fmes.value);
+            switch(jsmes){
+                case 1 : document.formcalend.fnomemes.value = "Janeiro"; break;
+                case 2 : document.formcalend.fnomemes.value = "Fevereiro"; break;
+                case 3 : document.formcalend.fnomemes.value = "Marco"; break;
+                case 4 : document.formcalend.fnomemes.value = "Abril"; break;
+                case 5 : document.formcalend.fnomemes.value = "Maio"; break;
+                case 6 : document.formcalend.fnomemes.value = "Junho"; break;
+                case 7 : document.formcalend.fnomemes.value = "Julho"; break;
+                case 8 : document.formcalend.fnomemes.value = "Agosto"; break;
+                case 9 : document.formcalend.fnomemes.value = "Setembro"; break;
+                case 10 : document.formcalend.fnomemes.value = "Outubro"; break;
+                case 11 : document.formcalend.fnomemes.value = "Novembro"; break;
+                case 12 : document.formcalend.fnomemes.value = "Dezembro"; break;
+                default : document.formcalend.fnomemes.value = "** M\u00eas Inv\u00e1lido **"; break;
+            }
+        }
+    </script>
+</body>
+</html>

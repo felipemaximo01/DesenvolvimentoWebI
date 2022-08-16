@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Felipe Maximo Colen">
+    <title>Atividade Pratica 3</title>
+    <script type="text/javascript">
+        var a = 0;
+        function novopara(){
+            var paragrafo = document.createElement('p');
+            var body=document.getElementById('body');
+            var texto = document.createTextNode('Texto texto texto[' + a+']');
+            a = a + 1;
+            paragrafo.appendChild(texto);
+            body.appendChild(paragrafo);
+            console.log(paragrafo);
+            paragrafo.setAttribute('id',a);
+        }
+        function removepara(){
+            var d = document.getElementById("body");
+            var did = document.getElementById(a);
+            d.removeChild(did);
+            a = a -1;
+        }
+        function removetodos(){
+            var del = document.getElementById('body');
+            del.parentNode.removeChild(del)
+
+            var structure = document.body;
+            var div = document.createElement("div");
+            structure.appendChild(div);
+            div.setAttribute('id', 'body');
+            a=0
+        }
+    </script>
+</head>
+<body>
+    <h1>Praticando 2 JavaScript</h1>
+    <button onclick="novopara();" type="button">Adicionar Paragrafo</button><br>
+    <button onclick="removepara();" type="button">Remover ultimo paragrafo</button><br>
+    <button onclick="removetodos();" type="button">Remover todos os paragrafos</button>
+    <div id="body">
+
+    </div>
+</body>
+</html>

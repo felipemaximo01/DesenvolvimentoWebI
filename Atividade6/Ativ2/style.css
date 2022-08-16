@@ -1,0 +1,43 @@
+body{
+    padding-left: 500px;
+    padding-right: 500px;
+    background-color: rgb(173, 255, 166);
+}
+p{
+    text-align: justify;
+}
+.titulo{
+    text-align: center;
+    border: solid aqua 7px;
+    margin: 15px;
+}
+img{
+    margin: 15px;
+}
+.menu{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding-right: 10px;
+    background-color: aqua;
+}
+.img1{
+    float: right;
+    width: 640px;
+}
+.img2{
+    float: left;
+    width: 640px;
+}
+.img3{
+    float: right;
+    width: 640px;
+}
+.img4{
+    float: left;
+    width: 640px;
+}
+.img5{
+    float: right;
+    width: 640px;
+}
